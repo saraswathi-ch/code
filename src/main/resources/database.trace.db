@@ -1,0 +1,12 @@
+2023-12-30 14:14:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE room ( id INT PRIMARY KEY AUTO_INCREMENT, roomNumber VARCHAR(255), name VARCHAR(255), price DOUBLE, hotelId Int [*]FOREIGN KEY )"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE room ( id INT PRIMARY KEY AUTO_INCREMENT, roomNumber VARCHAR(255), name VARCHAR(255), price DOUBLE, hotelId Int FOREIGN KEY ) [42001-214]
+2023-12-30 14:18:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL" already exists; SQL statement:
+CREATE TABLE hotel ( id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(255), location VARCHAR(255), rating Int ) [42101-214]
+2024-01-01 13:13:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL" already exists; SQL statement:
+CREATE TABLE hotel ( id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(255), location VARCHAR(255), rating Int ) [42101-214]
+2024-01-01 13:27:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL" already exists; SQL statement:
+CREATE TABLE hotel ( id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(255), location VARCHAR(255), rating Int ) [42101-214]
